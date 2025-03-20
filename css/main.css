@@ -1,0 +1,101 @@
+.CellaTitolo {
+	font-family: "Courier New", Courier, mono;
+	color: #FFFFFF;
+	text-align: center;
+	border: 1px solid #0066CC;
+	background-color: #0099CC;
+}
+.titolo {
+	font-family: "Courier New", Courier, mono;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.foother {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+.cella {
+	border: 1px solid #0066CC;
+}
+.tabellabianca {
+	border: none #FFFFFF;
+}
+.cellavuota {
+	border: none #FFFFFF;
+}
+.tabellabordosxdx {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-left-color: #0066CC;
+	border-right-color: #0066CC;
+}
+.cellasx {
+	border-top: 1px none;
+	border-right: 1px none;
+	border-bottom: 1px none;
+	border-left: 1px solid #0066CC;
+}
+.MenuLogin {
+	font-family: "Courier New", Courier, mono;
+	font-style: italic;
+}
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.tabellagiocatori {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.titoloCelleLat {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: "Courier New", Courier, mono;
+	font-variant: small-caps;
+	font-size: 14px;
+	background-color: #0099CC;
+	display: block;
+}
+.piccolo {font-size: 10px}
+.MenuMessaggi {font-family: "Courier New", Courier, mono; font-size: 12px; }
+.BenvenutoBold {
+	font-size: 12px;
+	font-weight: bold;
+}
+.MenuLink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.TitoloTab {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	background-color: #0099CC;
+	display: block;
+	line-height: 24px;
+	text-indent: 4pt;
+}
+.SottoTitoloTab {
+	font-size: x-small;
+	font-style: italic;
+	text-indent: 4pt;
+}
+.TestoTabelle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 9px;
+	color: #000000;
+}
+.CampiTabelle {
+	font-family: "Courier New", Courier, mono;
+	font-size: x-small;
+}
