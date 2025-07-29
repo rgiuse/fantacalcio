@@ -1,19 +1,21 @@
-# fantacalcio
-Un vecchio progetto personale per la gestione del fantacalcio,
-é stato portato poi in una sua versione embrionale come progetto di un esame Universitario.
+# Fantacalcio
 
-- Sviluppato principalmente in PHP.
+Un vecchio progetto personale per la gestione del fantacalcio, è stato portato poi in una sua versione embrionale come progetto di un esame universitario.
 
-- Utilizza le table per il layout: cosa normale dell´epoca.
+## Caratteristiche Tecniche
 
-- Il deploy era su un installazione di Apache e il database era sviluppato su MySql.
+- **Linguaggio principale**: PHP
+- **Layout**: Utilizza le table per il layout (cosa normale dell'epoca)
+- **Deploy**: Apache con database MySQL
+- **Forum integrato**: [phpBB](phpBB2/) con rudimentale Single Sign On (necessitava della creazione manuale dell'utente su phpBB)
+- **Versione mobile**: Sviluppo abbozzato della versione WAP dell'epoca in WML, visibile in [`index.php`](index.php)
+- **Messaggistica**: Funzionalità di messaggistica interna al sito
 
-- Era stato integrato con un forum phpBB implementando un rudimentale Single Sign On. ( Necessitava della creazione manuale dell'utente su phpBB )
+## Note Storiche
 
-- MySql all'epoca non supportava le query annidiate.
+- MySQL all'epoca non supportava le query annidate
+- **Nota sulla sicurezza**: Pessima gestione delle password in chiaro su DB (cosa molto comune all'epoca)
 
-- Era stato abbozzato lo sviluppo della versione 'mobile' ( WAP ) dell'epoca in WML visibile in index.php.
+## Licenza
 
-- Era stata sviluppata anche un funzionalitá di messaggistica all'interno del sito. 
-
-P.s. Pessima gestione delle password in chiaro su DB. Cosa molto comune all'epoca.
+Questo progetto è rilasciato sotto [licenza MIT](LICENSE).
